@@ -1,5 +1,5 @@
 ### Create Issue
-POST http://localhost:3000/api/v1/issues
+POST http://localhost:8000/api/v1/issues
 content-Type: application/json
 
 
@@ -9,16 +9,16 @@ content-Type: application/json
 }  
 
 ### Get all issues
-GET http://localhost:3000/api/v1/issues
+GET http://localhost:8000/api/v1/issues
 
 ### Find issue with a particular id
-GET http://localhost:3000/api/v1/issues/1
+GET http://localhost:8000/api/v1/issues/1
 
 ### Delete issue with a particular id
-DELETE http://localhost:3000/api/v1/issues/2
+DELETE http://localhost:8000/api/v1/issues/2
 
 ### Update issue with a particular id
-PATCH http://localhost:3000/api/v1/issues/1
+PATCH http://localhost:8000/api/v1/issues/1
 content-Type: application/json
 
 {
