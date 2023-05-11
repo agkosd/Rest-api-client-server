@@ -1,0 +1,27 @@
+### Create Issue
+POST http://localhost:3000/api/v1/issues
+content-Type: application/json
+
+
+{
+    "title":"issue",
+    "description":"original"
+}  
+
+### Get all issues
+GET http://localhost:3000/api/v1/issues
+
+### Find issue with a particular id
+GET http://localhost:3000/api/v1/issues/1
+
+### Delete issue with a particular id
+DELETE http://localhost:3000/api/v1/issues/2
+
+### Update issue with a particular id
+PATCH http://localhost:3000/api/v1/issues/1
+content-Type: application/json
+
+{
+    "title":"updated issue",
+    "description":"this issue has now been updated"
+} 
